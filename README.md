@@ -7,6 +7,8 @@ This project documents the design and implementation of a simulated enterprise I
 
 The objective is to reproduce real-world scenarios encountered in IT support and system administration, with a focus on access control, user management, and troubleshooting.
 
+This project was built as part of a personal initiative to develop hands-on experience beyond academic work.
+
 ---
 
 ## Environment Overview
