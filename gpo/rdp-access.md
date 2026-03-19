@@ -1,4 +1,4 @@
-# RDP Access Issue – User Unable to Log In
+# RDP Access Issue – Domain Admin user Unable to Log In
 
 ## Problem
 
