@@ -48,8 +48,6 @@ My admin user account was able to successfully log in to the DC via RDP.
 - Changes require policy refresh with gpupdate /force
 - GPO must be applied to groups and not users alone
 
-## Screenshots 
-
 
 ## Screenshots
 
