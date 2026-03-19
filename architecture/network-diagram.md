@@ -1,12 +1,12 @@
 
   ## Network Topology
 
-This homelab simulates a small enterprise environment with:
+This homelab simulates a small enterprise environment in progress with:
 
 - 1 Domain Controller (DC01)
 - 1 File Server (FS01)
 - 2 Client machines
-- A single subnet (192.168.10.0/24)
+- A single subnet (192.168.10.0/24) 
 
 ## Key Components
 
