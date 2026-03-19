@@ -46,7 +46,7 @@ My admin user account was able to successfully log in to the DC via RDP.
 - RDP access is controlled via User Rights Assignments in GPO
 - Security groups must be explicitely granted logon rights
 - Changes require policy refresh with gpupdate /force
-- GPO must be applied to groups and not users alone
+- GPO must be applied to groups and not users alone (best practice)
 
 
 ## Screenshots
