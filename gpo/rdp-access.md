@@ -35,4 +35,25 @@ Configured a Group Policy Object (GPO) to allow the IT_Admins group to log in vi
 ```bash
 gpupdate /force
 
+```
+## Result
+
+My admin user account was able to successfully log in to the DC via RDP.
+
+## To keep in mind
+
+- DCs have stricter default security policies
+- RDP access is controlled via User Rights Assignments in GPO
+- Security groups must be explicitely granted logon rights
+- Changes require policy refresh with gpupdate /force
+- GPO must be applied to groups and not users alone
+
+## Screenshots 
+
+
+<img width="1044" height="834" alt="accessdenied" src="https://github.com/user-attachments/assets/a7b137b7-ea03-46f4-afeb-1167cc81518a" />
+<img width="1201" height="854" alt="gposcreen" src="https://github.com/user-attachments/assets/874d4dee-1d99-4549-a1d2-da4927600598" />
+<img width="1078" height="789" alt="establishmentgpo" src="https://github.com/user-attachments/assets/e0d4391d-384f-4ced-894b-1ecdcd7656ba" />
+<img width="1113" height="830" alt="gpupdateforcesuccessful" src="https://github.com/user-attachments/assets/ce7159cc-6e8f-439c-86b6-95748be2946f" />
+<img width="1069" height="894" alt="successfulconnexion" src="https://github.com/user-attachments/assets/d8a7ce7c-6f9e-4ebf-b1c8-7bcd8cbb2fc0" />
 
