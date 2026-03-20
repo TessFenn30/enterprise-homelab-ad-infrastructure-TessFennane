@@ -3,7 +3,7 @@ Simulated enterprise IT environment using Active Directory, GPO, file server and
 
 # Enterprise Homelab – Active Directory Infrastructure
 
-This project documents the design and implementation of a simulated enterprise IT environment built using Active Directory, Group Policy, Windows 11 and Windows Server 2022.
+This project documents the design and implementation of a simulated enterprise IT environment built using Active Directory, Group Policy, Windows 11, Windows Server 2022 and Azure.
 
 The objective is to reproduce real-world scenarios encountered in IT support and system administration, with a focus on access control, user management, and troubleshooting.
 
