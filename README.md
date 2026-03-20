@@ -36,6 +36,7 @@ This project was built as part of a personal initiative to develop hands-on expe
 - File server deployment with NTFS and share permissions  
 - PowerShell-based onboarding automation  
 - Additional Group Policy configurations (drive mapping, restrictions)
+- Extension to Azure
 
 ---
 
