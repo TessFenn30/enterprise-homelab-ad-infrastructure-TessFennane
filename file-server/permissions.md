@@ -44,7 +44,15 @@ It allows easier management and scalability.
 ## Group Relationship
 
 HR_Admin → member of HR_RW
-HR_Users → (not in HR_RW by default)
+
+
+<img width="1215" height="841" alt="hradminreadwrite" src="https://github.com/user-attachments/assets/1bd6a00c-6b3f-4808-b0ae-c65c9dbd3485" />
+
+
+HR_Users → HR_RO (not in HR_RW by default)
+
+<img width="1184" height="836" alt="readonlyavecusernormal" src="https://github.com/user-attachments/assets/c0511a35-fc25-4aff-8012-ecf1594958a2" />
+
 
 This allows flexibility in granting permissions.
 
