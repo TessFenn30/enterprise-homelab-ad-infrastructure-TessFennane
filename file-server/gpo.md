@@ -28,6 +28,8 @@ This allows:
 - Linked to: `HR OU`
 - Scope: User Configuration
 - Purpose: Automatically map the HR shared drive
+- 
+<img width="1246" height="873" alt="ouestlagpo" src="https://github.com/user-attachments/assets/ddaae498-55ab-4637-960d-faee8d2d18b6" />
 
 ---
 
@@ -49,6 +51,9 @@ The GPO is filtered using security groups:
 - `HR_Admin`
 
 Only members of these groups will receive the GPO.
+
+
+<img width="1213" height="851" alt="lagpodisplay" src="https://github.com/user-attachments/assets/95637989-1702-40eb-ac6a-878b7c6d5c10" />
 
 ---
 
@@ -82,6 +87,8 @@ These groups are populated through role-based groups:
 This creates the following chain:
 
 User -> Role Group -> Permission Group -> Folder Access
+
+<img width="1316" height="873" alt="yartgeting" src="https://github.com/user-attachments/assets/a979a4e1-9949-4769-8a46-7a249a133783" />
 
 ---
 
