@@ -7,6 +7,7 @@ I created a few test users to simulate employees:
 
 - tfennane
 - zrobaii
+- soussman
 
 These users are used to test access to shared resources on the file server.
 
