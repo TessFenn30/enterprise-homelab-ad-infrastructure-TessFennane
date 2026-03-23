@@ -15,7 +15,9 @@ The objective is to:
 
 - Server Name: FS01  
 - Role: File Server  
-- Domain: corp.local  
+- Domain: corp.local
+- 
+<img width="1214" height="795" alt="changedomain" src="https://github.com/user-attachments/assets/2dd37018-4cc9-4466-b1cf-02c9883a746f" />
 
 The server is joined to the domain and managed through Active Directory.
 
