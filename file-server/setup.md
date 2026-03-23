@@ -64,14 +64,6 @@ This allows domain users to access the file server over the local network.
 We are focusing on the HR department permissions on this documentation, but the rest of the folders shared have the exact same structure and follow
 the same principles.
 
-C:\Shares
-│
-├── HR
-│ ├── Admin
-│ └── General
-│
-├── Finance
-├── IT
-├── Marketing
-└── Sales
+
+<img width="1616" height="526" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/5cef3dd4-9530-4d7b-9a4c-9eb19d67b332" />
 
