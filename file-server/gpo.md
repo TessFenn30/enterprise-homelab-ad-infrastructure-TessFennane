@@ -164,6 +164,7 @@ gpupdate /force
 Verification can be done using:
 
 gpresult /r
+<img width="884" height="514" alt="appliedgrouppolicyadmin" src="https://github.com/user-attachments/assets/bc1b83a2-fb4f-49f5-95c3-afdf30e7e665" />
 
 
 ---
@@ -182,6 +183,8 @@ gpresult /r
 
 - Drive H: mapped automatically → OK  
 - Full access → OK  
+<img width="852" height="637" alt="driveHadmin" src="https://github.com/user-attachments/assets/f677bf12-f094-42c6-a4c0-c6b6465b1ff3" />
+<img width="1216" height="832" alt="fullaccess" src="https://github.com/user-attachments/assets/dc8bf19b-4e0c-4838-9c39-c2f5c0664c64" />
 
 ---
 
