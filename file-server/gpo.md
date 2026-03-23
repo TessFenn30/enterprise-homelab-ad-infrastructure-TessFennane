@@ -162,8 +162,9 @@ Manual update can be triggered with:
 gpupdate /force
 
 Verification can be done using:
-
 gpresult /r
+
+
 <img width="884" height="514" alt="appliedgrouppolicyadmin" src="https://github.com/user-attachments/assets/bc1b83a2-fb4f-49f5-95c3-afdf30e7e665" />
 
 
