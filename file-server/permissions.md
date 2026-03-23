@@ -140,7 +140,6 @@ Add user -> HR_RW -> gains write access instantly
 
 ##  Future Improvements
 
-- Implement HR_RO for read-only scenarios  
 - Add auditing (file access tracking)  
 - Apply similar structure to other departments  
 
