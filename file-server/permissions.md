@@ -144,6 +144,8 @@ Add user -> HR_RW -> gains write access instantly
 
 - Full access to all folders → OK  
 
+<img width="1239" height="863" alt="testokadmin" src="https://github.com/user-attachments/assets/1ca7a07b-34b9-4904-b52c-5613d17daf33" />
+
 ---
 
 ##  Future Improvements
