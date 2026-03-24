@@ -36,3 +36,20 @@ Instead of manually assigning permissions, a template user is duplicated based o
 <img width="1195" height="865" alt="shecannotaccessadmin" src="https://github.com/user-attachments/assets/18f99a0a-7287-42c6-89b0-56c5fa3e1d70" />
 
 <img width="1269" height="843" alt="butshecanaccessgeneral" src="https://github.com/user-attachments/assets/11e2d2cb-1db5-4398-afb7-b006df3a697d" />
+
+## Limitations
+
+- Risk of copying unintended permissions if the template account is not properly maintained
+- Requires regular review of template accounts
+
+## Future Improvements
+
+The current onboarding process is manual but structured.
+
+Future improvements include automating the process using PowerShell to:
+
+- Create users dynamically
+- Assign group memberships based on role
+- Standardize onboarding across departments
+- Reduce manual intervention and potential errors
+- Implement logging for auditing and traceability
