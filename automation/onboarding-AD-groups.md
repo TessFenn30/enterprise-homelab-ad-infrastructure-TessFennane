@@ -20,15 +20,15 @@ Instead of manually assigning permissions, a template user is duplicated based o
 
 <img width="1200" height="824" alt="testmpierre" src="https://github.com/user-attachments/assets/b274cd73-7978-4b3e-b307-ef843ec14883" />
 
-4. Update user details (name, username)
+3. Update user details (name, username)
 
-5. Move the user to the appropriate OU (e.g. Staff/HR)
+4. Move the user to the appropriate OU (e.g. Staff/HR)
    
 <img width="1281" height="851" alt="copied manon now moving" src="https://github.com/user-attachments/assets/97cd6854-b4c3-4706-a3dc-ad176fcd98ba" />
 
   <img width="1236" height="830" alt="copyingfromtemplatesuccessful" src="https://github.com/user-attachments/assets/06d5ebb7-18d6-4440-9589-7e0779944021" />
 
-6. Verify access:
+5. Verify access:
    - Drive mapping (H:)
    - Folder permissions (HR\General / HR\Admin)
 <img width="1219" height="881" alt="manonpierreuserdriveH" src="https://github.com/user-attachments/assets/d051d0ca-30ba-482a-9c82-4f7e0ec6da35" />
