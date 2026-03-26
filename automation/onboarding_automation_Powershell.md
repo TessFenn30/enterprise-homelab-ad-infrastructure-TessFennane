@@ -1,4 +1,4 @@
-### Automated User Onboarding (on AD)
+# Automated User Onboarding (on AD)
 
 ## Overview
 
@@ -91,7 +91,7 @@ Every onboarding action is logged, making it easier to:
 
 ## Limitations 
 
-# Static role mapping
+### Static role mapping
 
 For now, the script relies on a hardcoded mapping:
 
@@ -102,7 +102,7 @@ $TemplateMap = @{
 It requires manual updates when new roles are added.
 Possible improvement: dynamically discover templates from AD.
 
-# Dependency on AD structure
+### Dependency on AD structure
 
 The script assumes a strict OU structure which may break if it changes.
 
@@ -113,20 +113,20 @@ OU=Staff
 
 --- 
 
-# No approval workflow
+### No approval workflow
 
 The script executes immediately without any validation step and no integration with HR systems.
 
 ---
 
-# Password exposure
+### Password exposure
 
 The password is displayed in clear text on the powershell terminal. 
 It is acceptable in a lab context but not for prod environments.
 We might want to consider a more secure delivery (self-service password setup).
 
 ---
-# No rollback mechanism 
+### No rollback mechanism 
 
 If a step fails during execution : the user might be partially configured and there is no automatic cleanup or rollback.
 
