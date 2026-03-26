@@ -1,6 +1,6 @@
 # Enterprise Homelab – Active Directory Infrastructure
 
-Simulated enterprise IT environment built from scratch using Active Directory, Group Policy, File Server and PowerShell automation.
+Simulated enterprise IT environment built from scratch with Virtual machines using Active Directory, Group Policy, File Server and PowerShell automation.
 
 This project is designed to replicate real-world IT infrastructure scenarios, focusing on access control, user lifecycle management, and enterprise-grade configuration.
 
