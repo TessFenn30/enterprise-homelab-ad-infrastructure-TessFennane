@@ -1,4 +1,4 @@
-#  Group Policy (GPO) Configuration
+#  Group Policy (GPO) drive H Configuration
 
 ## Overview
 
