@@ -1,66 +1,233 @@
-# enterprise-homelab-ad-infrastructure-TessFennane
-Simulated enterprise IT environment using Active Directory, GPO, file server and PowerShell automation
-
 # Enterprise Homelab – Active Directory Infrastructure
 
-This project documents the design and implementation of a simulated enterprise IT environment built using Active Directory, Group Policy, Windows 11, Windows Server 2022 and Azure.
+Simulated enterprise IT environment built from scratch using Active Directory, Group Policy, File Server and PowerShell automation.
 
-The objective is to reproduce real-world scenarios encountered in IT support and system administration, with a focus on access control, user management, and troubleshooting.
-
-This project was built as part of a personal initiative to develop hands-on experience beyond academic work.
+This project is designed to replicate real-world IT infrastructure scenarios, focusing on access control, user lifecycle management, and enterprise-grade configuration.
 
 ---
 
-## Environment Overview
+## Project Overview
 
-- Domain: corp.local  
-- Domain Controller: DC01  
-- Client machines: Windows 11  
-- Users organised by department (HR, IT, Marketing, Finance, Sales)
+This homelab simulates a small company environment where users, departments, and resources are centrally managed.
 
----
+It was built to move beyond theoretical knowledge and gain hands-on experience with real system administration tasks such as:
 
-## Implemented Features
-
-- Active Directory domain configuration  
-- Organisational Unit (OU) structure by department  
-- Security groups following a role-based access control (RBAC) model  
-- Group Policy configuration:
-  - Remote Desktop access control IT admins  
-  - User rights assignment  
+- Active Directory design
+- Group Policy implementation
+- File server deployment with secure permissions
+- User onboarding (manual and automated)
+- Troubleshooting real-world issues
 
 ---
 
-## In Progress
+## Environment Architecture
 
-- File server deployment with NTFS and share permissions  
-- PowerShell-based onboarding automation  
-- Additional Group Policy configurations (drive mapping, restrictions)
-- Extension to Azure
+- Domain: `corp.local`
+- Domain Controller: `DC01`
+- File Server: `FS01`
+- Clients: Windows 11 machines
+- Network: `192.168.10.0/24`
+
+### Components
+
+- Active Directory Domain Services
+- Organisational Units (OU) structured by departments
+- Role-Based Access Control (RBAC)
+- SMB File Server
+- Group Policy Objects (GPO)
+- PowerShell automation
+
+See full topology: :contentReference[oaicite:0]{index=0}
 
 ---
 
-## Learning Focus
+## Key Features
 
-This lab is used to strengthen practical skills in:
+### Active Directory Design
 
-- Active Directory administration  
-- Group Policy design and behaviour  
-- Access control and least privilege principles  
-- Troubleshooting authentication and access issues in a domain environment  
+- OU structure by department (HR, IT, Finance, Marketing, Sales)
+- Separation between:
+  - Users
+  - Groups
+  - Templates
+- Scalable design aligned with enterprise environments
+
+---
+
+### Role-Based Access Control (RBAC)
+
+Access is managed using a layered model:
+
+User → Role Group → Permission Group → Resource
+
+
+- No direct permissions assigned to users
+- Full scalability and easier management
+
+See implementation: :contentReference[oaicite:1]{index=1}
+
+---
+
+### File Server Deployment (FS01)
+
+- Centralised storage using SMB (`\\FS01\HR`)
+- NTFS permissions configured with least privilege principle
+- Structured folder hierarchy:
+  - HR\Admin (restricted)
+  - HR\General (shared)
+
+See setup: :contentReference[oaicite:2]{index=2}  
+See permissions: :contentReference[oaicite:3]{index=3}
+
+---
+
+### Advanced Permission Model
+
+- Separation between:
+  - Business roles (`HR_Users`, `HR_Admin`)
+  - Technical permissions (`HR_RO`, `HR_RW`)
+- Nested group design for flexibility
+- Fully aligned with enterprise best practices
+
+---
+
+### Group Policy (GPO)
+
+Implemented multiple GPOs to automate and control the environment:
+
+#### Drive Mapping
+
+- Automatic mapping of `H:` drive
+- Based on:
+  - OU targeting
+  - Security filtering
+  - Item-level targeting
+
+#### Access Control Example
+
+- RDP access restricted via GPO to `IT_Admins`
+
+See drive mapping: :contentReference[oaicite:4]{index=4}  
+See troubleshooting case: :contentReference[oaicite:5]{index=5}
+
+---
+
+### User Onboarding Process
+
+#### Manual Process
+
+- Template-based user creation
+- Consistent group membership and access
+
+See process: :contentReference[oaicite:6]{index=6}
+
+---
+
+#### Automated Onboarding (PowerShell)
+
+Custom PowerShell script that:
+
+- Creates users dynamically
+- Assigns group memberships
+- Generates usernames and passwords
+- Applies RBAC model automatically
+- Logs every action for traceability
+
+Features:
+
+- Role-based template mapping
+- Secure password generation
+- Full logging (`C:\Logs`)
+- Standardised user creation
+
+See automation: :contentReference[oaicite:7]{index=7}
+
+---
+
+## Troubleshooting Scenario
+
+### RDP Access Issue (Domain Controller)
+
+Problem:
+- Admin user unable to log in via RDP
+
+Root cause:
+- Missing "Allow log on through Remote Desktop Services" permission
+
+Solution:
+- Fixed using Group Policy (User Rights Assignment)
+
+Outcome:
+- Successful secure access configuration
+
+See full case: :contentReference[oaicite:8]{index=8}
+
+---
+
+## Design Principles
+
+- Least Privilege (PoLP)
+- Role-Based Access Control (RBAC)
+- Separation of responsibilities
+- Scalability and maintainability
+- Automation over manual processes
+- Auditability and traceability
+
+---
+
+## Current Status
+
+### Completed
+
+- Active Directory domain
+- OU and group structure
+- RBAC model
+- File server deployment
+- NTFS permissions
+- GPO (drive mapping + access control)
+- Manual onboarding process
+- Automated onboarding script
+
+---
+
+### In Progress
+
+- Azure / hybrid integration
+- Additional GPO security baseline
+- Multi-department file server expansion
+- Bulk onboarding (CSV)
+- Monitoring and logging improvements
+
+---
+
+## Technologies Used
+
+- Windows Server 2022
+- Windows 11
+- Active Directory
+- Group Policy
+- SMB / NTFS permissions
+- PowerShell
+
+---
+
+## What This Project Demonstrates
+
+- Real-world system administration skills
+- Enterprise-level access control design
+- Automation using PowerShell
+- Structured troubleshooting approach
+- Ability to design, build and document an IT environment from scratch
 
 ---
 
 ## Screenshots
 
-To be added.
+See individual documentation files for detailed screenshots and step-by-step configurations.
 
 ---
 
-## Technologies
+## Author
 
-- Windows Server
-- Windows
-- Active Directory  
-- Group Policy  
-- PowerShell  
+Tess Fennane  
+IT Support & Infrastructure Engineer
