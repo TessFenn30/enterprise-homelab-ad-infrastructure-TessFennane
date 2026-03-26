@@ -194,7 +194,9 @@ See full case in gpo/rdp-access.md
 - Additional GPO security baseline
 - Multi-department file server expansion
 - Bulk onboarding (CSV)
-- Monitoring and logging improvements
+- Monitoring and logging improvements 
+- Portal to reset password (part of AD user onboarding automation initiative)
+- automated access request
 
 ---
 
