@@ -18,7 +18,8 @@ It standardises the onboarding process by:
 
 The script requires three inputs : .\onboarding.ps1 -FirstName "Donna" -LastName "Despres" -JobTitle "HR Advisor"
 
---- 
+--- <img width="1454" height="527" alt="powershelldebut" src="https://github.com/user-attachments/assets/dff236c5-380c-4bc2-aff3-0b8b81dbaad4" />
+
 
 ## Script Process
 
@@ -32,6 +33,7 @@ The script requires three inputs : .\onboarding.ps1 -FirstName "Donna" -LastName
 - Copies group memberships from the template
 - Moves the user to the correct department OU
 - Logs every step to a file
+<img width="1434" height="1027" alt="displayterminaldonnadespres" src="https://github.com/user-attachments/assets/1b7f97e6-3751-4dc5-a402-389c403bac10" />
 
 ---
 
@@ -48,10 +50,14 @@ The script requires three inputs : .\onboarding.ps1 -FirstName "Donna" -LastName
 
 A detailed log file is generated for each execution: C:\Logs\onboarding_<timestamp> <user>.txt
 
+<img width="1173" height="624" alt="logsfileexplorer" src="https://github.com/user-attachments/assets/20acd0ac-698c-46f1-ae0e-ebe5f16fbedc" />
+
 Each step is logged with:
 - timestamp
 - status (INFO / SUCCESS / WARNING / ERROR)
 - detailed message
+- 
+<img width="1208" height="819" alt="logdedonna" src="https://github.com/user-attachments/assets/5b1c44c9-a2be-4f97-80a3-42671922fd86" />
 
 This ensures:
 - traceability
