@@ -37,7 +37,7 @@ It was built to move beyond theoretical knowledge and gain hands-on experience w
 - Group Policy Objects (GPO)
 - PowerShell automation
 
-See full topology: :contentReference[oaicite:0]{index=0}
+See full topology: architecture/network-diagram.md
 
 ---
 
@@ -64,7 +64,6 @@ User → Role Group → Permission Group → Resource
 - No direct permissions assigned to users
 - Full scalability and easier management
 
-See implementation: :contentReference[oaicite:1]{index=1}
 
 ---
 
@@ -76,8 +75,8 @@ See implementation: :contentReference[oaicite:1]{index=1}
   - HR\Admin (restricted)
   - HR\General (shared)
 
-See setup: :contentReference[oaicite:2]{index=2}  
-See permissions: :contentReference[oaicite:3]{index=3}
+See setup in file-server/setup.md
+See permissions in file-server/permissions.md
 
 ---
 
@@ -107,8 +106,7 @@ Implemented multiple GPOs to automate and control the environment:
 
 - RDP access restricted via GPO to `IT_Admins`
 
-See drive mapping: :contentReference[oaicite:4]{index=4}  
-See troubleshooting case: :contentReference[oaicite:5]{index=5}
+See troubleshooting case in gpo/rdp-access.md
 
 ---
 
@@ -119,7 +117,7 @@ See troubleshooting case: :contentReference[oaicite:5]{index=5}
 - Template-based user creation
 - Consistent group membership and access
 
-See process: :contentReference[oaicite:6]{index=6}
+See process in automation/onboarding_manual.md
 
 ---
 
@@ -140,7 +138,7 @@ Features:
 - Full logging (`C:\Logs`)
 - Standardised user creation
 
-See automation: :contentReference[oaicite:7]{index=7}
+See automation in automation/onboarding_automation_Powershell.md
 
 ---
 
@@ -160,7 +158,7 @@ Solution:
 Outcome:
 - Successful secure access configuration
 
-See full case: :contentReference[oaicite:8]{index=8}
+See full case in gpo/rdp-access.md
 
 ---
 
@@ -211,13 +209,7 @@ See full case: :contentReference[oaicite:8]{index=8}
 
 ---
 
-## What This Project Demonstrates
 
-- Real-world system administration skills
-- Enterprise-level access control design
-- Automation using PowerShell
-- Structured troubleshooting approach
-- Ability to design, build and document an IT environment from scratch
 
 ---
 
